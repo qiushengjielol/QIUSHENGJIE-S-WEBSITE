@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=15.0">
+  <link rel="icon" href="icon\title.ico" type="image/x-icon" />
+	<link clsss="title_icon" rel="stylesheet" href="styles\loading.css">
+  <link rel="stylesheet" href="styles\body.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <title>邱聖傑的個人網站</title>
+</head>
+<body>
+  <div id="load" class="load">
+    <div class="loading" id="loading">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="loading_text" id="loading">
+      <span>載</span>
+      <span>入</span>
+      <span>中</span>
+      <span>.</span>
+      <span>.</span>
+      <span>.</span>
+    </div>
+  </div>
+  <script>
+    $(document).ready(function() {
+//      setTimeout(function() {
+        $(".load").fadeOut(1000);
+//      }, 2000)
+    })
+  </script>
+  <div class="body">
+    <a href="index.html"><h1>QIUSHENGJIE'S WEBSITE</h1></a>
+  </div>
+  <a href="https://www.nfu.edu.tw/zh/"><button class="button_1">我的學校</button></a>
+  <a href="https://www.facebook.com/profile.php?id=100054202462506"><button class="button_2">我的FB</button></a>
+  <a href="https://github.com/qiushengjielol"><button class="button_3">我的Github</button></a>
+  <img class="back_1" src="img\title_background.jpg">
+
+</body>
+</html>
