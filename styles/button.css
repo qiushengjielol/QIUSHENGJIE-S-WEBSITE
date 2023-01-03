@@ -1,0 +1,39 @@
+
+.button{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 144, 227, 0.505);
+}
+.home_info_button{
+    width: 200px;
+    height:100px;
+    margin-bottom: 10%;
+    background-color: rgba(255, 144, 227, 0.505);
+}
+.home_info_button:hover{
+    animation: button 1s forwards;
+}
+.button:hover{
+    background-color: rgba(132, 210, 255, 0.505);
+    animation:button 1s forwards alternate;
+}
+.title_button{
+    display: flex;
+    position: absolute;
+    z-index:0;
+    width: 100%;
+    height: 70%;
+    right: 0%;
+    background: linear-gradient(24deg, #6a6aff8c, #ff009d74);
+    background-repeat: no-repeat;
+    border-width:1;
+    justify-content: right ;
+    border-width:1px;
+    border-radius: 20%;
+    align-items:center;
+}
+.title_button:hover{
+    background-image: url(../img/回首頁.png);
+    background-size:100vw 70vh;
+    background-repeat: no-repeat;
+}

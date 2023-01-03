@@ -21,16 +21,17 @@ body{
   width: 99vw;
   height: 99vh;
 }
+
 .load{
   width: 110%;
   height: 110%;
   top:0;
   display: flex; 
-  justify-content: center;    
+  justify-content: center;
   align-items: center; 
   background-color:#222;
   position:absolute;
-  z-index:2;
+  z-index:999;
 }
 .loading{
   width: 120px;

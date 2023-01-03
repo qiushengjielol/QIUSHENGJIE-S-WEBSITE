@@ -1,0 +1,132 @@
+@keyframes img {
+  50% {
+  border-bottom-left-radius: 100%;
+  }
+  100% {
+  border-bottom-left-radius: 30%;
+
+  }
+}
+@keyframes button {
+  25% {
+    border-radius: 10%;
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    border-radius: 20%;
+    transform: translate3d(0, -1em, 0);
+
+  }
+  75% {
+    border-radius: 30%;
+    transform: translate3d(0, 1em, 0);
+  }
+  100% {
+    border-radius: 40%;
+    transform: translate3d(0, 0, 0);
+  }
+}
+body{
+  margin:0;
+  overflow-x: hidden;
+  background-color: #ff009d19;
+}
+a{
+  text-decoration:none;
+}
+/*/回頂部/*/
+.menu{
+  z-index: 10;
+  position: fixed;
+  left: 5%;
+  top:85%;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color:rgba(215, 85, 255, 0.719);
+  color: rgb(250, 250, 250);
+}
+.menu:hover{
+  background-color: rgba(105, 120, 255, 0.744);
+  animation:button 1s forwards alternate;
+}
+/*/自介/*/
+.qiu {
+  padding: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/*/自介 文字區/*/
+.qiu_text {
+  width: 200px;
+  margin: 0 auto;
+}
+/*/自介 標題/*/
+.qiu_text h1{
+  text-align: center;
+}
+.qiu_text p{
+  text-align: center;
+}
+.home_info{
+  width:100vw;
+  height: auto;
+  margin:0 auto;
+}
+.info_1{
+  width:30%;
+  height:120vh;
+  text-align:center;
+  float:left;
+}
+.info_2{
+  width:30%;
+  height:120vh;
+  text-align:center;
+  float:right;
+}
+.info_3{
+  margin-left:30%;
+  margin-right:30%;
+  height:120vh;
+  text-align:center;
+}
+
+.title_mask{
+  position:absolute;
+  z-index:2;
+  top: 0%;
+  display: flex;
+  width: 100%;
+  height: 70%;
+  background-color: aliceblue;
+  border-bottom-right-radius:60%;
+  right: 0%;
+  background-image: url("../img/title_background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%
+}
+.my_info{
+  width:100vw;
+  height: auto;
+  margin:0 auto;
+}
+.div_1{
+  width:30%;
+  height:120vh;
+  text-align:center;
+  float:left;
+}
+.div_2{
+  width:30%;
+  height:120vh;
+  text-align:center;
+  float:right;
+}
+.div_3{
+  margin-left:30%;
+  margin-right:30%;
+  height:120vh;
+  text-align:center;
+}
